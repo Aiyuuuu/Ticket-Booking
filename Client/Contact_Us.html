@@ -7,27 +7,29 @@
   <link rel="stylesheet" type="text/css" href="assets/css/as-alert-message.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/contact_us.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style-starter.css">
+  <style>
+    .contact-us-heading {
+      margin-top: 20px;
+    }
+      .submitbutton {
+  opacity: 0.1; /* Very low transparency */
+}
+
+  </style>
 </head>
 
 <body>
   <header id="site-header" class="w3l-header fixed-top">
-    <!--/nav-->
     <nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
       <div class="container">
         <h1><a class="navbar-brand" href="index.html"><span class="fa fa-play icon-log" aria-hidden="true"></span>
           MyShowz </a></h1>
-        <!-- if logo is image enable this   
-                    <a class="navbar-brand" href="#index.html">
-                        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                    </a> -->
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
           <span class="fa icon-expand fa-bars"></span>
           <span class="fa icon-close fa-times"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -39,22 +41,14 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-
             <li class="nav-item active">
               <a class="nav-link" href="Contact_Us.html">Contact</a>
             </li>
           </ul>
-
-          <!--/search-right-->
-          <!--/search-right-->
-
           <div class="Login_SignUp" id="login" style="font-size: 2rem ; display: inline-block; position: relative;">
-            <!-- <li class="nav-item"> -->
             <a class="nav-link" href="sign_in.html"><i class="fa fa-user-circle-o"></i></a>
-            <!-- </li> -->
           </div>
         </div>
-        <!-- toggle switch for light and dark theme -->
         <div class="mobile-position">
           <nav class="navigation">
             <div class="theme-switch-wrapper">
@@ -71,9 +65,9 @@
       </div>
     </nav>
   </header>
-  <!-- Contact Us Form -->
+  
   <div class="container">
-    <h4>Contact Us</h4>
+    <h4 class="contact-us-heading">Contact Us</h4>
     <h3>Leave a Message</h3>
     <p>If you have a question regarding our services,
       feel free to contact us using the form below.</p>
@@ -129,25 +123,22 @@
       </div>
     </form>
   </div>
+  
   <script type="text/javascript" src="assets/js/contact-us.js"></script>
   <script type="text/javascript" src="assets/js/as-alert-message.min.js"></script>
   <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <!--/theme-change-->
+  <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
-  <!-- disable body scroll which navbar is in active -->
+  
   <script>
     $(function () {
       $('.navbar-toggler').click(function () {
         $('body').toggleClass('noscroll');
       })
     });
-  </script>
-  <!-- disable body scroll which navbar is in active -->
-  <!--/MENU-JS-->
-  <script>
+    
     $(window).on("scroll", function () {
       var scroll = $(window).scrollTop();
-
       if (scroll >= 80) {
         $("#site-header").addClass("nav-fixed");
       } else {
@@ -155,10 +146,10 @@
       }
     });
 
-    //Main navigation Active Class Add Remove
     $(".navbar-toggler").on("click", function () {
       $("header").toggleClass("active");
     });
+
     $(document).on("ready", function () {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
@@ -170,7 +161,6 @@
       });
     });
   </script>
-  <script src="assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
