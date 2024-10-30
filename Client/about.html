@@ -14,23 +14,39 @@
 		rel="stylesheet">
 
 </head>
+<style>
+	.read-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
+.read-button:hover {
+    background-color: darkorange;
+}
+
+</style>
 <body>
-	<!-- header -->
-	<header id="site-header" class="w3l-header fixed-top">
-		<!--/nav-->
-		<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
-			<a class="navbar-brand" href="index.html" style="display: flex; align-items: center; margin-left: 40px;">
-				<img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height: 50px; margin-right: 5px; margin-top: -5px;" />
-				<span style="font-size: 1.8rem; font-weight: bold; color: #e70d0d;">MovieSta</span>
-			</a>
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<!-- <span class="navbar-toggler-icon"></span> -->
-					<span class="fa icon-expand fa-bars"></span>
-					<span class="fa icon-close fa-times"></span>
-				</button>
+<!-- header -->
+<header id="site-header" class="w3l-header fixed-top">
+	<!--/nav-->
+	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
+		<div class="container">
+			<h1><a class="navbar-brand" href="index.html"><span class="fa fa-play icon-log"
+						aria-hidden="true"></span>
+					MyShowz</a></h1>
+
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<!-- <span class="navbar-toggler-icon"></span> -->
+				<span class="fa icon-expand fa-bars"></span>
+				<span class="fa icon-close fa-times"></span>
+			</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
@@ -94,8 +110,8 @@
 					<img class="img-fluid" src="assets/images/banner1.jpg">
 				</div>
 				<div class="col-lg-6 ab-left pl-lg-4 mt-lg-0 mt-5">
-					<h3 class="hny-title">MovieSta Entertainment</h3>
-					<p class="mt-3">Moviesta is a seamless movie booking platform that combines easy seat selection with engaging trailers, making it a breeze to find and enjoy the latest films. The straightforward payment process adds to the overall convenience, ensuring a hassle-free experience for movie lovers</p>
+					<h3 class="hny-title">MyShowz Entertainment</h3>
+					<p class="mt-3">MyShowz is a seamless movie booking platform that combines easy seat selection with engaging trailers, making it a breeze to find and enjoy the latest films. The straightforward payment process adds to the overall convenience, ensuring a hassle-free experience for movie lovers</p>
 					<div class="ready-more mt-4">
 						<a href="#" class="btn read-button">Read More <span class="fa fa-angle-double-right ml-2"
 								aria-hidden="true"></span></a>
@@ -107,7 +123,7 @@
 				<div class="stats_left">
 					<div class="counter_grid">
 						<div class="icon_info">
-							<p class="counter">65</p>
+							<p class="counter">77</p>
 							<h4>Movies</h4>
 
 						</div>
@@ -116,7 +132,7 @@
 				<div class="stats_left">
 					<div class="counter_grid">
 						<div class="icon_info">
-							<p class="counter">165</p>
+							<p class="counter">169</p>
 							<h4>Shows</h4>
 
 						</div>
@@ -125,7 +141,7 @@
 				<div class="stats_left">
 					<div class="counter_grid">
 						<div class="icon_info">
-							<p class="counter">463</p>
+							<p class="counter">465</p>
 							<h4>Staff Members</h4>
 
 						</div>
@@ -134,7 +150,7 @@
 				<div class="stats_left">
 					<div class="counter_grid">
 						<div class="icon_info">
-							<p class="counter">5063</p>
+							<p class="counter">25340</p>
 							<h4>No. of Users</h4>
 
 						</div>
@@ -146,210 +162,124 @@
 	</div>
 	
 	<!-- **************** -->
-<!-- Image Slider for MEET US Section-->
-<div class="swiper-container" style="background-color: var(--theme-bg);">
-	<h1 id="swiper-container-h1">Meet Our Team</h1>
-	<div class="swiper-wrapper">
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/kishan.PNG" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-1">Kishan Patel<br></h3>
-				<div class="p-sm">
-					<a href="https://www.linkedin.com/in/kishan-patel-a95827176/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/kishann_20/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/Kishan207p"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/sharvil.jpg" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-2">Sharvil Patel<br></h3>
-				<div class="p-sm">
-					<a href="https://www.linkedin.com/in/sharvil-patel/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/sharvil551/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/Sharvil24600"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/sharvil.jpg" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-2">Sharvil Patel<br></h3>
-				<div class="p-sm">
-					<a href="https://www.linkedin.com/in/sharvil-patel/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/sharvil551/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/Sharvil24600"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/sharvil.jpg" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-2">Sharvil Patel<br></h3>
-				<div class="p-sm">
-					<a href="https://www.linkedin.com/in/sharvil-patel/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/sharvil551/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/Sharvil24600"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/Harsh (2).jpg" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-3">Harsh Mange<br></h3>
-				<div class="p-sm">
-					<a href="https://in.linkedin.com/in/harshmange"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/im.h_r_s_h/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/harshmange44"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="swiper-slide">
-			<div class="imgBx">
-				<img src="assets/images/chavda.PNG" style="width :100%; height: 100%">
-			</div>
-			<div class="details">
-				<h3 id="details-h3-4">Yugam Chavda<br></h3>
-				<div class="p-sm">
-					<a href="https://www.linkedin.com/in/yugamsinh-chavda-2b06ab18b/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/yugamsinh_chavda/"><i class="fa fa-instagram"></i></a>
-					<a href="https://github.com/YugamsinhChavda"><i class="fa fa-github"></i></a>
-				</div>
-			</div>
-		</div>
 
-	</div>
-	<!-- Add Pagination -->
-	<div class="swiper-pagination"></div>
-</div>
 	<section class="w3l-clients" id="clients">
-		<!-- /grids -->
-		<!-- <div class="cusrtomer-layout py-5"> -->
 		<div class="container py-lg-4">
-			<!-- <div class="headerhny-title">
-				<h3 class="hny-title">Our Testimonials</h3>
-			</div> -->
-			<!-- /grids -->
 			<div class="testimonial-width">
 				<div class="owl-clients owl-carousel owl-theme mb-lg-5">
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
-								<blockquote>
-									<q>I love using Moviesta! It’s simple to find movies, watch trailers, and book seats. Plus, paying is quick and easy</q>
-								</blockquote>
 								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team1.jpg" class="img-fluid" alt="/">
+									<div class="test-img">
+										<img src="assets/images/team1.jpg" class="img-fluid" alt="/">
 									</div>
 									<div class="peopl align-self">
-										<h3>Johnson smith</h3>
-										<p class="indentity">Washington</p>
+										<h3>John Cox</h3>
+										<p class="indentity">Sri Lanka</p>
 									</div>
 								</div>
+								<blockquote>
+									<q>I love using MyShowz! It’s simple to find movies, watch trailers, and book seats. Plus, paying is quick and easy</q>
+								</blockquote>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
-								<blockquote>
-									<q>Moviesta makes booking movie tickets easy and fun! You can watch trailers and pick your seats, all while paying securely.</q>
-								</blockquote>
 								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid" alt="/">
+									<div class="test-img">
+										<img src="assets/images/team2.jpg" class="img-fluid" alt="/">
 									</div>
 									<div class="peopl align-self">
-										<h3>Alexander leo</h3>
-										<p class="indentity">Washington</p>
+										<h3>Alex Adams</h3>
+										<p class="indentity">Baku</p>
 									</div>
 								</div>
+								<blockquote>
+									<q>MyShowz makes booking movie tickets easy and fun! You can watch trailers and pick your seats, all while paying securely.</q>
+								</blockquote>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
-								<blockquote>
-									<q>Movista has made my life easier as I can book seats in advance without waiting in long queues.</q>
-								</blockquote>
 								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="/">
+									<div class="test-img">
+										<img src="assets/images/team3.jpg" class="img-fluid" alt="/">
 									</div>
 									<div class="peopl align-self">
-										<h3>Roy Linderson</h3>
-										<p class="indentity">Washington</p>
+										<h3>Roy Gwen Miles</h3>
+										<p class="indentity">Oman</p>
 									</div>
 								</div>
+								<blockquote>
+									<q>MyShowz has made my life easier as I can book seats in advance without waiting in long queues.</q>
+								</blockquote>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
+								<div class="testi-des">
+									<div class="test-img">
+										<img src="assets/images/team4.jpg" class="img-fluid" alt="/">
+									</div>
+									<div class="peopl align-self">
+										<h3>Mike Carter</h3>
+										<p class="indentity">London</p>
+									</div>
+								</div>
 								<blockquote>
 									<q>The secure payment system makes it super efficient to pay online without any worries.</q>
 								</blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team4.jpg" class="img-fluid" alt="/">
-									</div>
-									<div class="peopl align-self">
-										<h3>Mike Thyson</h3>
-										<p class="indentity">Washington</p>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
-								<blockquote>
-									<q>The Moviesta interface is clean and easy to navigate. I found what I needed in just a few clicks!</q>
-								</blockquote>
 								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid" alt="/">
+									<div class="test-img">
+										<img src="assets/images/team2.jpg" class="img-fluid" alt="/">
 									</div>
 									<div class="peopl align-self">
-										<h3>Laura gill</h3>
+										<h3>Grey Luna</h3>
 										<p class="indentity">Washington</p>
 									</div>
 								</div>
+								<blockquote>
+									<q>The MyShowz interface is clean and easy to navigate. I found what I needed in just a few clicks!</q>
+								</blockquote>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimonial-content">
 							<div class="testimonial">
-								<blockquote>
-									<q>I appreciate how simple the payment system is on Moviesta. No complicated steps, just quick and easy!</q>
-								</blockquote>
 								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="/">
+									<div class="test-img">
+										<img src="assets/images/team3.jpg" class="img-fluid" alt="/">
 									</div>
 									<div class="peopl align-self">
-										<h3>Smith Johnson</h3>
-										<p class="indentity">Washington</p>
+										<h3>Mac Todd</h3>
+										<p class="indentity">Malaysia</p>
 									</div>
 								</div>
+								<blockquote>
+									<q>I appreciate how simple the payment system is on MyShowz. No complicated steps, just quick and easy!</q>
+								</blockquote>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /grids -->
 		</div>
 	</section>
+	
 
 	<footer class="w3l-footer">
 		<section class="footer-inner-main">
@@ -430,7 +360,7 @@
 				<div class="container">
 					<div class="copyright-footer">
 						<div class="columns text-lg-left">
-							 <p>&copy; 2021 MyShowz. All rights reserved</p>
+							 <p>&copy; 2024 MyShowz. All rights reserved</p>
 						</div>
 
 						<ul class="social text-lg-right">
@@ -675,3 +605,4 @@
 	});
 </script>
 <script src="assets/js/bootstrap.min.js"></script>
+
